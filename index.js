@@ -66,5 +66,13 @@ b = c
 console.log("O novo valor de a é", a) // O novo valor de a é 25
 console.log("O novo valor de b é", b) // O novo valor de b é 10 */
 
-/* Faça um programa que receba dois números do usuário e faça as seguintes operações, imprimindo os resultados no console da seguinte forma: */
+ /*Faça um programa que receba dois números do usuário e faça as seguintes operações, imprimindo os resultados no console da seguinte forma:
 
+let num1 = parseFloat(prompt("Digite o primeiro número: "));
+let num2 = parseFloat(prompt("Digite o segundo número: "));
+
+let soma = num1 + num2;
+let multiplicacao = num1 * num2;
+
+console.log("O primeiro número somado ao segundo número resulta em: " + soma);
+console.log("O primeiro número multiplicado pelo segundo número resulta em: " + multiplicacao);*/
