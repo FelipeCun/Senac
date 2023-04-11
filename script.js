@@ -172,4 +172,18 @@ alert("Olá " + nome + " você tem " + idade + " anos.");
     Um true ou false que diz se ela é maior de idade
     Quantos anos ela terá em 2050*/
 
+    let nome = prompt("Digite o nome Completo: ");
+    let dataNascimento = parseFloat(prompt("Digite o ano de seu Nascimento: "));
+    let anoAtual = parseFloat(prompt("Digite o ano atual que estamos: "));
+    //let anoAtual = new Date().getFullYear();
     
+    let idade = anoAtual - dataNascimento;
+    
+    let maiorDeIdade = idade >= 18;
+
+    let idadeEm2050 = 2050 - dataNascimento;
+
+    console.log("Nome completo: " + nome);
+    console.log("Idade: " + idade);
+    console.log("É maior de idade? " + maiorDeIdade);
+    console.log("Idade em 2050 será: " + idadeEm2050);
